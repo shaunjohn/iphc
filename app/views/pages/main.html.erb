@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Important People, Honest Conversations</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/assets/custom.css">
+    <link rel="stylesheet" type="text/css" href="/assets/carousel.css">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png">
+
+
+<script src="/assets/jquery.min.js"></script>
+	<script src="/assets/jquery.easing.1.3.js"></script>
+	<script src="/assets/slides.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: '/assets/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true
+			});
+		});
+	</script>
+
+  </head>
+
+  <body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<img id="badge" src="/assets/iphc_logo.png" alt="IPHC"/>
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <ul class="nav pull-left">
+              <li class="active">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="">
+                <a href="./getting-started.html">Get started</a>
+              </li>
+              <li class="">
+                <a href="./scaffolding.html">Scaffolding</a>
+              </li>
+	    </ul>
+	    <ul class="nav pull-right">
+              <li class="">
+                <a href="./base-css.html">Base CSS</a>
+              </li>
+              <li class="">
+                <a href="./components.html">Components</a>
+              </li>
+              <li class="">
+                <a href="./javascript.html">JavaScript</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container">
+
+<!--
+<div id="page">
+
+  <%# render "carousel" %>
+
+  <%# render "apply" %>
+
+  <%# render "trust" %>
+
+</div>
+-->
+	<div id="container">
+		<div id="example">
+			<div id="slides">
+	<!--			<a href="#" class="prev"><img src="/assets/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="/assets/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+-->
+				<div class="slides_container shadow">
+					<a href="http://www.flickr.com/photos/jliba/4665625073/" title="145.365 - Happy Bokeh Thursday! | Flickr - Photo Sharing!" target="_blank"><img src="/assets/slide-1.jpg" width="570" height="270" alt="Slide 1"></a>
+					<a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="Taxi | Flickr - Photo Sharing!" target="_blank"><img src="/assets/slide-2.jpg" width="570" height="270" alt="Slide 2"></a>
+					<a href="http://www.flickr.com/photos/childofwar/2984345060/" title="Happy Bokeh raining Day | Flickr - Photo Sharing!" target="_blank"><img src="/assets/slide-3.jpg" width="570" height="270" alt="Slide 3"></a>
+					<a href="http://www.flickr.com/photos/b-tal/117037943/" title="We Eat Light | Flickr - Photo Sharing!" target="_blank"><img src="/assets/slide-4.jpg" width="570" height="270" alt="Slide 4"></a>
+					<a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="“I must go down to the sea again, to the lonely sea and the sky; and all I ask is a tall ship and a star to steer her by.” | Flickr - Photo Sharing!" target="_blank"><img src="/assets/slide-5.jpg" width="570" height="270" alt="Slide 5"></a>
+					<a href="http://www.flickr.com/photos/streetpreacher/2078765853/" title="twelve.inch | Flickr - Photo Sharing!" target="_blank"><img src="/assets/slide-6.jpg" width="570" height="270" alt="Slide 6"></a>
+					<a href="http://www.flickr.com/photos/aftab/3152515428/" title="Save my love for loneliness | Flickr - Photo Sharing!" target="_blank"><img src="/assets/slide-7.jpg" width="570" height="270" alt="Slide 7"></a>
+				</div>
+			</div>
+		<!--	<img src="/assets/example-frame.png" width="739" height="341" alt="Example Frame" id="frame"> -->
+		</div>
+		</div>
+
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1 class="pull-left">Important People,<br>Honest Conversations</h1>
+        <p>Excatly what it sounds like...verbatim</p>
+	<p>Hear great advice, straight from the source</p>
+	<input type="text" class="span3 pull-right">
+        <p><a class="btn primary large">Sign Up Today</a></p>
+      </div>
+
+<div class="row" style="left:50%;">
+	<div class="span3">
+		<a href="#">
+			<div class="gallery-entry shadow" style="background:url('/assets/jbatson.jpg') center center"></div>
+		</a>
+	</div>
+	<div class="span3">
+		<a href="#">
+			<div class="gallery-entry shadow" style="background:url('/assets/bmason.jpg') center center"></div>
+		</a>
+	</div>
+	<div class="span3">
+		<a href="#">
+			<div class="gallery-entry shadow" style="background:url('/assets/aohearn.jpg') center center"></div>
+		</a>
+	</div>
+</div>
+</div>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+<footer class="footer">
+      <div class="navbar-inner">
+        <div class="container">
+             <ul class="nav pull-left">
+              <li class="active">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="">
+                <a href="./getting-started.html">Get started</a>
+              </li>
+              <li class="">
+                <a href="./scaffolding.html">Scaffolding</a>
+              </li>
+	    </ul>
+		 <ul class="nav pull-right">
+              <li class="active">
+   		<h2>Powered by</h2>
+              </li>
+              <li class="">
+                <a href="http://www.bostonstartupschool.com/"><img id="bssLogo" src="/assets/bssLogo.png" alt="Boston Startup School"/></a>
+              </li>
+	    </ul>
+
+          </div>
+        </div>
+</footer>
+
+  </body>
+</html>
