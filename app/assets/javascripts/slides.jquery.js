@@ -430,7 +430,7 @@
 				}
 				animate('prev', effect);
 			});
-			
+		/*	
 			// generate pagination
 			if (option.generatePagination) {
 				// create unordered list
@@ -484,7 +484,7 @@
 				}
 				return false;
 			});
-		
+		*/
 			if (option.play) {
 				// set interval
 				playInterval = setInterval(function() {

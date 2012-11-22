@@ -4146,28 +4146,19 @@ input[type="submit"].btn.btn-mini {
   z-index: 98;
   margin-bottom: 20px;
   overflow: visible;
-  color: #777777;
+  background-color: #599100;
+  width: 100%;
+  top: 0px;
+  opacity: 0.8;
 }
 
 .navbar-inner {
   min-height: 50px;
   padding-top: 8px;
   padding-bottom: 8px;
-  opacity: 0.9;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #fafafa;
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
-  background-repeat: repeat-x;
-  border: 1px solid #d4d4d4;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#599100', endColorstr='#fff2f2f2', GradientType=0);
   *zoom: 1;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
@@ -5738,7 +5729,7 @@ a.badge:hover {
 
 .hero-unit h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 20px;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;

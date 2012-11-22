@@ -15,9 +15,9 @@ z-index: 99;
   width: 100%;
   bottom: 0px;
   z-index: 98;
-  margin-bottom: 50px;
   overflow: visible;
   color: #777777;
+  margin-top: 50px;
 }
 
 #bssLogo {
